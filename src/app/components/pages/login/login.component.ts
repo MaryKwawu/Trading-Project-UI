@@ -12,4 +12,12 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  newMemberName = '';
+  members: string[] = [];
+
+  signupMember(){
+    this.members.push;
+
+  }
+
 }
